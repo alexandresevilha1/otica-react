@@ -1,0 +1,58 @@
+.contato {
+    width: 100%;
+    padding: 100px 20px;
+
+    text-align: center;
+    color: #fff;
+
+    background-color: #05031b;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+.lista div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.click{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.click img {
+    width: 18px;
+}
+
+.click p {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .contato {
+        padding: 60px 20px;
+    }
+    
+}
+
+@media only screen and (max-width:550px) {
+    .contato {
+        padding: 0 10px;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista div {
+        justify-content: center;
+    }
+}

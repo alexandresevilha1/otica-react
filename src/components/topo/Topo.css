@@ -1,0 +1,35 @@
+.topo section {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo img{
+    width: 150px
+}
+
+.topo a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+@media only screen and (max-width: 550px) {
+    .topo section {
+        flex-direction: column;
+    }
+    
+    .topo nav {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        border-top: 1px solid #aaadaf;
+    }
+}
